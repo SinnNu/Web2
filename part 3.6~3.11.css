@@ -1,0 +1,34 @@
+html {
+  background-color: tomato;
+}
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+/* div {
+  padding: 10px;
+} */
+#back {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  background-color: blanchedalmond;
+  width: 20rem;
+  height: 20rem;
+  border: 2px solid;
+}
+.lal {
+  background-color: teal;
+  width: 3rem;
+  height: 3rem;
+  border: 2px solid white;
+}
+#dashed {
+  /* background-color: teal; */
+  width: 15rem;
+  height: 2.5rem;
+  border: 2px dashed white;
+}
