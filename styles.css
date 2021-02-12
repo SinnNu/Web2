@@ -1,0 +1,56 @@
+html {
+  background-color: rgb(255, 177, 52);
+}
+/* body{
+
+} */
+header {
+  text-align: center;
+}
+main {
+  text-align: center;
+}
+footer {
+  text-align: center;
+}
+h1 {
+  color: rgb(0, 2, 7);
+}
+div {
+  padding: 10px;
+  border: 0.5px solid black;
+}
+#first {
+  background-color: greenyellow;
+  height: 100px;
+  /* width: 150px; */
+}
+#second {
+  background-color: rgb(53, 173, 81);
+  height: 75px;
+  /* width: 100px; */
+}
+
+#third {
+  background-color: rgb(204, 255, 0);
+  height: 50px;
+  /* width: 50px; */
+}
+
+#fourth {
+  background-color: rgb(0, 255, 89);
+  height: 25px;
+  /* width: 25px; */
+}
+.btn {
+  padding: 5px;
+  color: white;
+  border: 0.5px solid whitesmoke;
+  border-radius: 10px;
+}
+.teal {
+  background-color: teal;
+}
+.tomato {
+  background-color: tomato;
+}
