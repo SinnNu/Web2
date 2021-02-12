@@ -1,0 +1,143 @@
+/* body {
+  height: 1000vh;
+  margin: 50px;
+}
+
+div span {
+  background-color: yellowgreen;
+  border-radius: 5px;
+}
+div > span {
+  text-decoration: underline;
+}
+
+#tan {
+  background-color: tan;
+  width: 300px;
+  height: 300px;
+  position: relative;
+}
+
+#green {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  background-color: teal;
+  width: 100px;
+  height: 100px;
+}
+input:required {
+  border-color: tomato;
+}
+input[placeholder~="name"] {
+  background-color: pink;
+} */
+
+/* body {
+  height: 100vh;
+  font-family: "Times New Roman", Times, serif;
+  background-color: gainsboro;
+}
+h1 {
+  text-align: center;
+}
+
+.first {
+  display: flex;
+  justify-content: center;
+}
+.qwer {
+  border: white 2px solid;
+  display: inline-block;
+  background-color: white;
+  width: 125px;
+  height: 250px;
+}
+.qwer > .rewq {
+  width: 125px;
+  height: 20px;
+}
+.qwer .wert + .erty {
+  width: 125px;
+  height: 175px;
+}
+#tomato > div {
+  background-color: tomato;
+}
+#tomato span + div {
+  background-color: tomato;
+}
+#teal > div {
+  background-color: teal;
+}
+#teal span + div {
+  background-color: teal;
+}
+#burlywood > div {
+  background-color: burlywood;
+}
+#burlywood span + div {
+  background-color: burlywood;
+}
+#thistle > div {
+  background-color: thistle;
+}
+#thistle span + div {
+  background-color: thistle;
+} */
+
+body {
+  height: 100vh;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  margin-bottom: 50px;
+}
+
+section {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.color {
+  width: 48%;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.color:first-child .color__bg {
+  background-color: tomato;
+}
+
+.color:nth-child(2) .color__bg {
+  background-color: teal;
+}
+
+.color:nth-child(3) .color__bg {
+  background-color: burlywood;
+}
+
+.color:last-child .color__bg {
+  background-color: thistle;
+}
+
+.color__bg {
+  height: 300px;
+  border: 5px solid white;
+}
+
+.color__info {
+  position: absolute;
+  width: 100%;
+  background-color: white;
+  top: 20px;
+  padding: 0px 10px;
+  box-sizing: border-box;
+}
