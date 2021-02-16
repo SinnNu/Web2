@@ -1,0 +1,73 @@
+/* body {
+  height: 100vh;
+  background-color: tomato;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  background-color: blanchedalmond;
+  width: 500px;
+  height: 500px;
+  border: 2px black solid;
+}
+.color {
+  background-color: teal;
+  width: 75px;
+  height: 75px;
+  border: 2px white solid;
+}
+.dashed {
+  width: 350px;
+  border: dashed 2px white;
+} */
+body {
+  height: 100vh;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  margin-bottom: 60px;
+}
+section {
+  margin: 10px auto;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.color {
+  position: relative;
+  width: 50%;
+}
+.qwer {
+  height: 300px;
+  border: 5px solid white;
+}
+.color:first-child .qwer {
+  background-color: tomato;
+}
+.color:nth-child(2) .qwer {
+  background-color: teal;
+}
+.color:nth-child(3) .qwer {
+  background-color: burlywood;
+}
+.color:last-child .qwer {
+  background-color: thistle;
+}
+
+.wert {
+  background-color: white;
+  width: 100%;
+  position: absolute;
+  top: 20px;
+  box-sizing: border-box;
+  padding: 0px 10px;
+}
