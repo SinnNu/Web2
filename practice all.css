@@ -33,18 +33,19 @@ body {
   align-items: center;
 }
 h1 {
-  margin-bottom: 60px;
+  margin-bottom: 50px;
 }
 section {
   margin: 10px auto;
   width: 50%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 .color {
   position: relative;
-  width: 50%;
+  width: 48%;
+  margin-bottom: 20px;
 }
 .qwer {
   height: 300px;
@@ -62,12 +63,11 @@ section {
 .color:last-child .qwer {
   background-color: thistle;
 }
-
 .wert {
   background-color: white;
   width: 100%;
   position: absolute;
   top: 20px;
+  padding: 0 10px;
   box-sizing: border-box;
-  padding: 0px 10px;
 }
